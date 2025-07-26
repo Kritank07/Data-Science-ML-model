@@ -15,11 +15,11 @@ This project is a machine learning pipeline for predicting California housing pr
 - Inference support on unseen data ('input.csv' → 'output.csv')
 
 **Download the dataset**
-Get "housing.csv" from the official GitHub repository of the Hands-On ML book
-Place it in the same directory as main_new.py.
+- Get "housing.csv" from the official GitHub repository of the Hands-On ML book
+  Place it in the same directory as main_new.py.
 
 **Train or Inference**
-The script auto-detects if the model is already trained:
+- The script auto-detects if the model is already trained:
 
 If no model exists, it will:
 - Load data
