@@ -14,27 +14,27 @@ This project is a machine learning pipeline for predicting California housing pr
 - Model and pipeline persistence with 'joblib'
 - Inference support on unseen data ('input.csv' → 'output.csv')
 
-1. Download the dataset
+**Download the dataset**
 Get "housing.csv" from the official GitHub repository of the Hands-On ML book
 Place it in the same directory as main_new.py.
 
-2. Train or Inference
+**Train or Inference**
 The script auto-detects if the model is already trained:
 
 If no model exists, it will:
-Load data
-Preprocess
-Train the model
-Save the model & pipeline
-Export test set to input.csv
+- Load data
+- Preprocess
+- Train the model
+- Save the model & pipeline
+- Export test set to input.csv
 
 If model exists, it will:
-Load input.csv
-Predict housing prices
-Save results to output.csv
+- Load input.csv
+- Predict housing prices
+- Save results to output.csv
 
-3. Dependencies
-scikit-learn
-pandas
-numpy
-joblib
+**Dependencies**
+- Scikit-Learn
+- Pandas
+- Numpy
+- Joblib
